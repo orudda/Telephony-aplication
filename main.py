@@ -14,6 +14,7 @@ class Cmd(cmd.Cmd):
         print (arg)
         return 
     
+    
     def do_call(self, arg):
         print ('Call ' + arg + ' received')
         for i in list_:
