@@ -7,6 +7,7 @@ class operator():
         self.available = True
         self.ring = None
         self.busy = False
+        
 
 
 class Cmd(cmd.Cmd):
